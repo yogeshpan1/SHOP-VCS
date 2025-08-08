@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Embroidered Cotton-Blend Cricket Sweater</title>
+<style>
+  :root {
+    --header-bg: #2f4f3e; /* Green color from screenshot */
+    --accent: #0b6b3a;
+    --muted: #555;
+    --page-bg: #ffffff;
+    --card-bg: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, sans-serif;
+    background: var(--page-bg);
+    color: #111;
+    line-height: 1.4;
+  }
+  /* Header */
+  header {
+    background: var(--header-bg);
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+  }
+  header h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* Container */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  /* Left: Image stack */
+  .images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .images img {
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  /* Right: Details */
+  .details h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .color {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .size-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 15px;
+  }
+  .size-buttons button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+  }
+  .size-buttons button.selected {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(11,107,58,0.2);
+  }
+  .add-to-bag {
+    background: var(--accent);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .desc {
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  /* Complete the Look */
+  .complete {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 20px;
+  }
+  .complete h3 {
+    margin-bottom: 10px;
+  }
+  .look-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .look-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  .look-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .look-info {
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jarsun Morin</h1>
+  <nav>
+    <a href="#">Women</a>
+    <a href="#">Men</a>
+    <a href="#">Collections</a>
+    <a href="#">Accessories</a>
+    <a href="#">About</a>
+  </nav>
+</header>
+
+<div class="container">
+  <!-- Left: Images -->
+  <div class="images">
+    <img src="../Assets/main.png" alt="Main">
+    <img src="../Assets/first.png" alt="Flat Lay">
+  </div>
+
+  <!-- Right: Product Details -->
+  <div class="details">
+    <h2>Embroidered Cotton-Blend Cricket Sweater</h2>
+    <div class="price">$498.00</div>
+    <div class="color">Color: Cream Combo</div>
+
+    <div class="size-buttons">
+      <button>XS</button>
+      <button>S</button>
+      <button class="selected">M</button>
+      <button>L</button>
+      <button>XL</button>
+      <button>XXL</button>
+    </div>
+
+    <button class="add-to-bag">ADD TO BAG</button>
+
+    <div class="desc">
+      The cricket sweater is defined by its cable-knit pattern, usually in cream, as well as its v-neck and striped trim, which traditionally represents school or club colors.
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="descriptionn">
+        <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">The cricket sweater is defined by its cable-knit pattern, usually in cream, as well as its V-neck and striped trim, which traditionally represents school or club colors. Ralph Lauren introduced his version in 1972, and this updated take combines the iconic characteristics with a cotton blend that includes cashmere and hemp. At the front, it is embroidered with an athletic-inspired graphic that incorporates Polo’s founding year.</p>
+    </div>
+
+    <br><br><br><br><br>
+    <!-- Complete the Look -->
+    <div class="complete">
+      <h3>Complete the Look</h3>
+      <div class="look-items">
+        <div class="look-item">
+          <img src="../Assets/jacket.png" alt="Jacket">
+          <div class="look-info">
+            Vintage Inspired Letterman Jacket<br>
+            $998.00
+          </div>
+        </div>
+        <div class="look-item">
+          <img src="../Assets/shoe.png" alt="Shoes">
+          <div class="look-info">
+            Austen Leather Penny Loafer<br>
+            $398.00
+          </div>
+        </div>
+        <div class="look-item">
+          <img src="../Assets/jeans.png" alt="Jeans">
+          <div class="look-info">
+            Heritage Straight Faded Jean<br>
+            $198.00
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
